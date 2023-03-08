@@ -12,8 +12,12 @@ const invitati = [
     'Amal Clooney',
     'Maneskin'
 ];
+// aggiungo delle chiavi all'oggetto dell'array 
+const listaInvitati = invitati.map((element, index) => {
+    return {
+        table: 'Tavolo Vip', invitato: element, place: index + 1
+    }
+})
+console.log(listaInvitati)
 
 
-invitati.forEach((element) => {
-    console.log(element);
-});
