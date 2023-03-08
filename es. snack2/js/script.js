@@ -42,5 +42,10 @@ const students =
     grades : '78'
 }
 ]
+// lista con nome studenti in maiuscolo 
+const scream = students.map((element) => {
+    return element.name.toUpperCase()
+});
 
-console.log(students)
+console.log(students);
+console.log(scream);
