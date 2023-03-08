@@ -9,3 +9,38 @@
 // 102 Piero della Francesca   50
 // 120 Francesca da Polenta    84
 
+const students =
+[
+{ 
+    id: '213',
+    name: 'Marco della Rovere',
+    grades : '78'
+},
+{
+    id: '213',
+    name: 'Marco della Rovere',
+    grades : '78'
+},
+{
+    id: '213',
+    name: 'Marco della Rovere',
+    grades : '78'
+ },
+ {
+    id: '213',
+    name: 'Marco della Rovere',
+    grades : '78'
+ },
+ {
+    id: '213',
+    name: 'Marco della Rovere',
+    grades : '78'
+},
+{
+    id: '213',
+    name: 'Marco della Rovere',
+    grades : '78'
+}
+]
+
+console.log(students)
