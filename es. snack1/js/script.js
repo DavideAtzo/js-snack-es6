@@ -1,5 +1,5 @@
 'use strict';
-
+// array invitati 
 const invitati = [
     'Brad Pitt',
     'Johnny Depp',
@@ -14,3 +14,6 @@ const invitati = [
 ];
 
 
+invitati.forEach((element) => {
+    console.log(element);
+});
