@@ -58,7 +58,13 @@ const goodStudent = students.filter((element) => {
         return true;
     }
 })
+const classHead = students.filter((element) => {
+    if(element.grades > 70 && element.id > 120){
+        return true;
+    }
+})
 
 console.log(students);
 console.log(scream);
 console.log(goodStudent);
+console.log(classHead);
