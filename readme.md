@@ -7,3 +7,18 @@ Generiamo e stampiamo in console la lista per i segnaposto. -->
 Step-1: creiamo array con gli invitati;
 Step-2: creo uno arrow function che scorre in ordine l'array invitati e aggiungo a loro due oggetti (nome-tavolo e numero-posto);
 Step-3: salvare queste info invitati in una nuova variabile;
+
+
+<!-- SNACK 2
+Abbiamo un elenco degli studenti di una facoltà, identificati da _id_, _Nome_ e _somma totale_ dei loro voti di esame...
+1. Per preparare l’aula di un nuovo corso, dobbiamo stampare le targhe col nome degli studenti: creare una lista contenente il loro nome tutto in maiuscolo
+ES (Marco della Rovere => MARCO DELLA ROVERE);
+2. Dobbiamo creare una lista di tutti gli studenti che hanno un totale di voti superiore a 70
+3. Dobbiamo creare una lista di tutti gli studenti che hanno un totale di voti superiore a 70 e id superiore a 120 -->
+
+Step-1: creiamo array vuoto;
+Step-2: creo gli oggetti (studenti) con chiavi: _id_, _Nome_ e _somma totale_ dei loro voti di esame;
+Step-3: sposto gli oggetti nella variabile vuota dello step 1;
+Step-4: creo lista dove gli oggetti saranno scritti in maiusolo;
+Step-5: creo lista con studenti con voti maggiori di 70;
+Step-6: creo lista con studenti con voti maggiori di 70 e id maggiore di 120;
