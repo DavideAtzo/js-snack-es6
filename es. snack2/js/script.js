@@ -17,29 +17,34 @@ const students =
     grades : '78'
 },
 {
-    id: '213',
-    name: 'Marco della Rovere',
-    grades : '78'
+    id: '110',
+    name: 'Paola Cortellessa',
+    grades : '96'
 },
 {
-    id: '213',
-    name: 'Marco della Rovere',
-    grades : '78'
+    id: '250',
+    name: 'Andrea Mantegna ',
+    grades : '48'
  },
  {
-    id: '213',
-    name: 'Marco della Rovere',
-    grades : '78'
+    id: '145',
+    name: 'Gaia Borromini',
+    grades : '74'
  },
  {
-    id: '213',
-    name: 'Marco della Rovere',
-    grades : '78'
+    id: '196',
+    name: 'Luigi Grimaldello',
+    grades : '68'
 },
 {
-    id: '213',
-    name: 'Marco della Rovere',
-    grades : '78'
+    id: '102',
+    name: 'Piero della Francesca',
+    grades : '50'
+},
+{
+    id: '120',
+    name: 'Francesca da Polenta',
+    grades : '84'
 }
 ]
 // lista con nome studenti in maiuscolo 
@@ -47,5 +52,13 @@ const scream = students.map((element) => {
     return element.name.toUpperCase()
 });
 
+// lista studenti con +70 di voto 
+const goodStudent = students.filter((element) => {
+    if(element.grades > 70){
+        return true;
+    }
+})
+
 console.log(students);
 console.log(scream);
+console.log(goodStudent);
