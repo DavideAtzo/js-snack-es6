@@ -32,4 +32,8 @@ shopBike.forEach((element) => {
     let { name, weight } = element;
     console.log(name, weight)
 });
-
+// ciclo di bici e inserite in un array 
+const lightBike = shopBike.forEach((element) => {
+    const weight = element.weight;
+    console.log(weight)
+});
