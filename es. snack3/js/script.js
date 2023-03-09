@@ -38,7 +38,7 @@ const lightBike = shopBike.map((element) => {
     return weight;
 });
 
-console.log(lightBike)
-
+// prendo il peso più leggero 
 const lighterBike = Math.min(...lightBike)
-console.log(lighterBike)
+
+console.log(`DRIIIIN !! DRIIIIN !! la biciletta più leggera è la ${name} con un peso di ${lighterBike} kg`)
