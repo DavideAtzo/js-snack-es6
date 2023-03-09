@@ -12,7 +12,7 @@ const shopBike =
 },
 {
     name: 'Bici ibrida',
-    weight : '10'
+    weight : '9'
  },
  {
     name: 'Bici per bambini',
@@ -27,9 +27,16 @@ const shopBike =
     weight : '9'
 }
 ];
-
+// estrapolo elementi dall'array 
 let [{weight}] = shopBike;
-
+let [{name}] = shopBike;
+// ciclo sull'array per trovare la bici più leggera
+shopBike.forEach((element) => {
+    if(element.weight < weight){
+        weight = element.weight;
+    }
+});
 
 console.log(weight)
-
+console.log(name)
+console.log(`Drin drin !! compra questa ${name}, con un peso di ${weight}kg`);
