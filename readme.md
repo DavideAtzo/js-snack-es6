@@ -20,3 +20,13 @@ Step-1: creo arrey con chiavi: _id_, _Nome_ e _somma totale_ dei loro voti di es
 Step-4: creo lista dove gli oggetti saranno scritti in maiusolo;
 Step-5: creo lista con studenti con voti maggiori di 70;
 Step-6: creo lista con studenti con voti maggiori di 70 e id maggiore di 120;
+
+
+<!-- SNACK 3
+Creare un array di oggetti:
+Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso.
+Stampare in console la bici con peso minore utilizzando destructuring e template literal -->
+
+Step-1: creo arrey con chiavi: nome bici e peso;
+Step-2: creo un ciclo che scorre l'array e prenda la biciclette con peso peso;
+Step-3: consolo.log step-2;
