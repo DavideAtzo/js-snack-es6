@@ -30,10 +30,13 @@ const shopBike =
 // estrapolo con un ciclo gli elementi dall'array 
 shopBike.forEach((element) => {
     let { name, weight } = element;
-    console.log(name, weight)
+    // console.log(name, weight)
 });
 // ciclo di bici e inserite in un array 
-const lightBike = shopBike.forEach((element) => {
+let lightBike = shopBike.map((element) => {
     const weight = element.weight;
-    console.log(weight)
+    return weight;
 });
+
+console.log(lightBike)
+
