@@ -49,3 +49,9 @@ const points = serieA.map((element) => {
     return Pt;
 });
 console.log(points)
+
+const golConceded = serieA.map((element) => {
+    const GC = element.GC;
+    return GC;
+});
+console.log(golConceded)
