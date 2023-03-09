@@ -1,5 +1,5 @@
 'use strict';
-
+// array bicilette 
 const shopBike =
 [
 { 
@@ -28,5 +28,8 @@ const shopBike =
 }
 ];
 
-console.log(shopBike)
+let [{weight}] = shopBike;
+
+
+console.log(weight)
 
