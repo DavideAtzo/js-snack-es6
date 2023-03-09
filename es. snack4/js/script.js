@@ -45,13 +45,14 @@ const serieA =
 ]
 // estrapolo con un ciclo i punti fatti e gol subiti dall'array
 serieA.forEach((element) => {
-    let { Pt, faults } = element;
-    console.log(Pt, faults)
+    let {name, Pt, faults } = element;
+    console.log(name, Pt, faults)
 });
 // ciclo i punti fatti per inserirle in un array 
 const bestTeam = serieA.map(element => {
     element.Pt = getRandomInt(100);
     element.faults = getRandomInt(90);
-    return (element.Pt, element.faults)
+    return (element)
 })
 console.log(bestTeam)
+
