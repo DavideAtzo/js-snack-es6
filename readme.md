@@ -30,3 +30,13 @@ Stampare in console la bici con peso minore utilizzando destructuring e template
 Step-1: creo arrey con chiavi: nome bici e peso;
 Step-2: creo un ciclo che scorre l'array e prenda la biciclette con peso peso;
 Step-3: consolo.log step-2;
+
+<!-- SNACK 4
+Creare un array di oggetti di squadre di calcio. Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
+Nome sarà l’unica proprietà da compilare, le altre saranno tutte settate a 0.
+Generare numeri random al posto degli 0 nelle proprietà: Punti fatti e falli subiti.
+Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console. -->
+
+Step-1: creo array con chiavi: nome squadra, punti fatti(0) e falli subiti(0);
+Step-2: estrapolo dagli oggetti i punti fatti e falli subito ed assegno per entrambe le chiavi valori random;
+Step-3: nuovo array (.map) con nome squadra e falli suiti, infine console.log di esso;
