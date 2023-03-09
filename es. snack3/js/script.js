@@ -40,3 +40,5 @@ let lightBike = shopBike.map((element) => {
 
 console.log(lightBike)
 
+const ligherBike = Math.min(...lightBike)
+console.log(ligherBike)
