@@ -38,5 +38,5 @@ Generare numeri random al posto degli 0 nelle proprietà: Punti fatti e falli su
 Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console. -->
 
 Step-1: creo array con chiavi: nome squadra, punti fatti(0) e falli subiti(0);
-Step-2: estrapolo dagli oggetti i punti fatti e falli subito ed assegno per entrambe le chiavi valori random;
+Step-2: estrapolo dagli oggetti i punti fatti e falli subito ed assegno per entrambe in un array con valori random;
 Step-3: nuovo array (.map) con nome squadra e falli suiti, infine console.log di esso;

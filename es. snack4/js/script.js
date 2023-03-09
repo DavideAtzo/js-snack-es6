@@ -38,3 +38,14 @@ const serieA =
     GC : 0
 }
 ]
+// estrapolo con un ciclo i punti fatti e gol subiti dall'array
+serieA.forEach((element) => {
+    let { Pt, GC } = element;
+    console.log(Pt, GC)
+});
+// ciclo i punti fatti per inserirle in un array 
+const points = serieA.map((element) => {
+    const Pt = element.Pt;
+    return Pt;
+});
+console.log(points)
