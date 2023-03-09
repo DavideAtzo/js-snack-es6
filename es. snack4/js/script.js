@@ -1,5 +1,10 @@
 'use strict';
+// funzioni 
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+  }
 
+// array di squadre serie A 
 const serieA =
 [
 { 
@@ -44,14 +49,14 @@ serieA.forEach((element) => {
     console.log(Pt, GC)
 });
 // ciclo i punti fatti per inserirle in un array 
-const points = serieA.map((element) => {
-    const Pt = element.Pt;
-    return Pt;
-});
+const points = serieA.map(element => {
+    element.Pt = getRandomInt(100);
+    return element.Pt
+})
 console.log(points)
 
 const golConceded = serieA.map((element) => {
-    const GC = element.GC;
-    return GC;
+    element.GC = getRandomInt(90);
+    return element.GC;
 });
 console.log(golConceded)
