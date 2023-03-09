@@ -56,3 +56,8 @@ const bestTeam = serieA.map(element => {
 })
 console.log(bestTeam)
 
+// array squadre e falli subiti 
+const winnerTeam = bestTeam.map((element) => {
+    const {nome, element.faults} = element;
+    return {nome, element.faults};
+});
